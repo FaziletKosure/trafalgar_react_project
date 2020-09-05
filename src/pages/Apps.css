@@ -1,0 +1,83 @@
+.apps {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+
+#text-1,
+.download-text {
+  width: 486px;
+  height: 388px;
+  margin-left: 137px;
+}
+.text1-h4,
+.download-text-h4 {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  /* or 156% */
+
+  color: #000000;
+}
+.text1-p,
+.download-text-p {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+}
+
+#text1-btn {
+  width: 200px;
+  height: 60px;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+  /* identical to box height, or 333% */
+  border: 1.4px solid #458ff6;
+  box-sizing: border-box;
+  border-radius: 55px;
+  color: #458ff6;
+  outline: none;
+
+  mix-blend-mode: normal;
+}
+#download-app,
+#leading-healthcare-providers {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#download-text-btn {
+  width: 200px;
+  height: 56px;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  color: #458ff6;
+
+  mix-blend-mode: normal;
+  border: 1.4px solid #458ff6;
+  box-sizing: border-box;
+  border-radius: 55px;
+}
+#download-icon {
+  margin-top: 20px;
+  margin-left: -10px;
+}

@@ -1,0 +1,108 @@
+footer {
+  display: flex;
+  width: 1638px;
+  height: 523px;
+  /* position: fixed; */
+  bottom: 0;
+}
+#footer-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 1600px;
+  height: 432px;
+
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+.footer-right-img {
+  position: absolute;
+  margin-left: 1472px;
+  margin-top: -73px;
+  opacity: 0.5;
+  width: 131px;
+  height: 115px;
+  z-index: -1;
+}
+.footer-left-img {
+  margin-left: -104px;
+  margin-top: 306px;
+  width: 131px;
+  height: 115px;
+  z-index: 1;
+}
+.footer-left {
+  width: 391px;
+  height: 201px;
+  margin-left: -33px;
+  color: white;
+  margin-top: -70px;
+}
+.footer-left p.T-logo {
+  margin-left: 11px;
+  margin-top: -38px;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #5b9bf3;
+  mix-blend-mode: normal;
+}
+.footer-left p.T-logo + p {
+  margin-left: 50px;
+  margin-top: -44px;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+}
+.footer-left p {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  width: 391px;
+  /* or 156% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+}
+.footer-left p + .copyright {
+  font-size: 16px;
+}
+.footer-center {
+  width: 573px;
+  height: 214px;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  display: flex;
+}
+ul li {
+  list-style: none;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  mix-blend-mode: normal;
+  padding: 2px;
+}
+#footer-container > div.footer-center > ul > span {
+  margin-left: 5px;
+  align-self: flex-start;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 60px;
+}
+li {
+}
